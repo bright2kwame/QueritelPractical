@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56125F562684E83B00F7199E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56125F552684E83B00F7199E /* AppDelegate.swift */; };
+		56125F582684E83B00F7199E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56125F572684E83B00F7199E /* SceneDelegate.swift */; };
+		56125F5A2684E83B00F7199E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56125F592684E83B00F7199E /* ViewController.swift */; };
+		56125F5D2684E83B00F7199E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56125F5B2684E83B00F7199E /* Main.storyboard */; };
+		56125F5F2684E83D00F7199E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56125F5E2684E83D00F7199E /* Assets.xcassets */; };
+		56125F622684E83D00F7199E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56125F602684E83D00F7199E /* LaunchScreen.storyboard */; };
+		56125F6D2684E83D00F7199E /* QueritelPracticalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56125F6C2684E83D00F7199E /* QueritelPracticalTests.swift */; };
+		56125F782684E83D00F7199E /* QueritelPracticalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56125F772684E83D00F7199E /* QueritelPracticalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56125F692684E83D00F7199E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56125F4A2684E83A00F7199E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56125F512684E83B00F7199E;
+			remoteInfo = QueritelPractical;
+		};
+		56125F742684E83D00F7199E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56125F4A2684E83A00F7199E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56125F512684E83B00F7199E;
+			remoteInfo = QueritelPractical;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56125F522684E83B00F7199E /* QueritelPractical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QueritelPractical.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56125F552684E83B00F7199E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56125F572684E83B00F7199E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		56125F592684E83B00F7199E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56125F5C2684E83B00F7199E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56125F5E2684E83D00F7199E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56125F612684E83D00F7199E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56125F632684E83D00F7199E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56125F682684E83D00F7199E /* QueritelPracticalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueritelPracticalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56125F6C2684E83D00F7199E /* QueritelPracticalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueritelPracticalTests.swift; sourceTree = "<group>"; };
+		56125F6E2684E83D00F7199E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56125F732684E83D00F7199E /* QueritelPracticalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueritelPracticalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56125F772684E83D00F7199E /* QueritelPracticalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueritelPracticalUITests.swift; sourceTree = "<group>"; };
+		56125F792684E83D00F7199E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56125F4F2684E83B00F7199E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56125F652684E83D00F7199E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56125F702684E83D00F7199E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56125F492684E83A00F7199E = {
+			isa = PBXGroup;
+			children = (
+				56125F542684E83B00F7199E /* QueritelPractical */,
+				56125F6B2684E83D00F7199E /* QueritelPracticalTests */,
+				56125F762684E83D00F7199E /* QueritelPracticalUITests */,
+				56125F532684E83B00F7199E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56125F532684E83B00F7199E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56125F522684E83B00F7199E /* QueritelPractical.app */,
+				56125F682684E83D00F7199E /* QueritelPracticalTests.xctest */,
+				56125F732684E83D00F7199E /* QueritelPracticalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56125F542684E83B00F7199E /* QueritelPractical */ = {
+			isa = PBXGroup;
+			children = (
+				56125F552684E83B00F7199E /* AppDelegate.swift */,
+				56125F572684E83B00F7199E /* SceneDelegate.swift */,
+				56125F592684E83B00F7199E /* ViewController.swift */,
+				56125F5B2684E83B00F7199E /* Main.storyboard */,
+				56125F5E2684E83D00F7199E /* Assets.xcassets */,
+				56125F602684E83D00F7199E /* LaunchScreen.storyboard */,
+				56125F632684E83D00F7199E /* Info.plist */,
+			);
+			path = QueritelPractical;
+			sourceTree = "<group>";
+		};
+		56125F6B2684E83D00F7199E /* QueritelPracticalTests */ = {
+			isa = PBXGroup;
+			children = (
+				56125F6C2684E83D00F7199E /* QueritelPracticalTests.swift */,
+				56125F6E2684E83D00F7199E /* Info.plist */,
+			);
+			path = QueritelPracticalTests;
+			sourceTree = "<group>";
+		};
+		56125F762684E83D00F7199E /* QueritelPracticalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56125F772684E83D00F7199E /* QueritelPracticalUITests.swift */,
+				56125F792684E83D00F7199E /* Info.plist */,
+			);
+			path = QueritelPracticalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56125F512684E83B00F7199E /* QueritelPractical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56125F7C2684E83D00F7199E /* Build configuration list for PBXNativeTarget "QueritelPractical" */;
+			buildPhases = (
+				56125F4E2684E83B00F7199E /* Sources */,
+				56125F4F2684E83B00F7199E /* Frameworks */,
+				56125F502684E83B00F7199E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QueritelPractical;
+			productName = QueritelPractical;
+			productReference = 56125F522684E83B00F7199E /* QueritelPractical.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56125F672684E83D00F7199E /* QueritelPracticalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56125F7F2684E83D00F7199E /* Build configuration list for PBXNativeTarget "QueritelPracticalTests" */;
+			buildPhases = (
+				56125F642684E83D00F7199E /* Sources */,
+				56125F652684E83D00F7199E /* Frameworks */,
+				56125F662684E83D00F7199E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56125F6A2684E83D00F7199E /* PBXTargetDependency */,
+			);
+			name = QueritelPracticalTests;
+			productName = QueritelPracticalTests;
+			productReference = 56125F682684E83D00F7199E /* QueritelPracticalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56125F722684E83D00F7199E /* QueritelPracticalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56125F822684E83D00F7199E /* Build configuration list for PBXNativeTarget "QueritelPracticalUITests" */;
+			buildPhases = (
+				56125F6F2684E83D00F7199E /* Sources */,
+				56125F702684E83D00F7199E /* Frameworks */,
+				56125F712684E83D00F7199E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56125F752684E83D00F7199E /* PBXTargetDependency */,
+			);
+			name = QueritelPracticalUITests;
+			productName = QueritelPracticalUITests;
+			productReference = 56125F732684E83D00F7199E /* QueritelPracticalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56125F4A2684E83A00F7199E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					56125F512684E83B00F7199E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					56125F672684E83D00F7199E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 56125F512684E83B00F7199E;
+					};
+					56125F722684E83D00F7199E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 56125F512684E83B00F7199E;
+					};
+				};
+			};
+			buildConfigurationList = 56125F4D2684E83A00F7199E /* Build configuration list for PBXProject "QueritelPractical" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56125F492684E83A00F7199E;
+			productRefGroup = 56125F532684E83B00F7199E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56125F512684E83B00F7199E /* QueritelPractical */,
+				56125F672684E83D00F7199E /* QueritelPracticalTests */,
+				56125F722684E83D00F7199E /* QueritelPracticalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56125F502684E83B00F7199E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56125F622684E83D00F7199E /* LaunchScreen.storyboard in Resources */,
+				56125F5F2684E83D00F7199E /* Assets.xcassets in Resources */,
+				56125F5D2684E83B00F7199E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56125F662684E83D00F7199E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56125F712684E83D00F7199E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56125F4E2684E83B00F7199E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56125F5A2684E83B00F7199E /* ViewController.swift in Sources */,
+				56125F562684E83B00F7199E /* AppDelegate.swift in Sources */,
+				56125F582684E83B00F7199E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56125F642684E83D00F7199E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56125F6D2684E83D00F7199E /* QueritelPracticalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56125F6F2684E83D00F7199E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56125F782684E83D00F7199E /* QueritelPracticalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56125F6A2684E83D00F7199E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56125F512684E83B00F7199E /* QueritelPractical */;
+			targetProxy = 56125F692684E83D00F7199E /* PBXContainerItemProxy */;
+		};
+		56125F752684E83D00F7199E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56125F512684E83B00F7199E /* QueritelPractical */;
+			targetProxy = 56125F742684E83D00F7199E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56125F5B2684E83B00F7199E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56125F5C2684E83B00F7199E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56125F602684E83D00F7199E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56125F612684E83D00F7199E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56125F7A2684E83D00F7199E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56125F7B2684E83D00F7199E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56125F7D2684E83D00F7199E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QueritelPractical/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = monarchy.com.QueritelPractical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56125F7E2684E83D00F7199E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QueritelPractical/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = monarchy.com.QueritelPractical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56125F802684E83D00F7199E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QueritelPracticalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = monarchy.com.QueritelPracticalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QueritelPractical.app/QueritelPractical";
+			};
+			name = Debug;
+		};
+		56125F812684E83D00F7199E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QueritelPracticalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = monarchy.com.QueritelPracticalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QueritelPractical.app/QueritelPractical";
+			};
+			name = Release;
+		};
+		56125F832684E83D00F7199E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QueritelPracticalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = monarchy.com.QueritelPracticalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QueritelPractical;
+			};
+			name = Debug;
+		};
+		56125F842684E83D00F7199E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QueritelPracticalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = monarchy.com.QueritelPracticalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QueritelPractical;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56125F4D2684E83A00F7199E /* Build configuration list for PBXProject "QueritelPractical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56125F7A2684E83D00F7199E /* Debug */,
+				56125F7B2684E83D00F7199E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56125F7C2684E83D00F7199E /* Build configuration list for PBXNativeTarget "QueritelPractical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56125F7D2684E83D00F7199E /* Debug */,
+				56125F7E2684E83D00F7199E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56125F7F2684E83D00F7199E /* Build configuration list for PBXNativeTarget "QueritelPracticalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56125F802684E83D00F7199E /* Debug */,
+				56125F812684E83D00F7199E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56125F822684E83D00F7199E /* Build configuration list for PBXNativeTarget "QueritelPracticalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56125F832684E83D00F7199E /* Debug */,
+				56125F842684E83D00F7199E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56125F4A2684E83A00F7199E /* Project object */;
+}
