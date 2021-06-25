@@ -1,0 +1,6 @@
+framework module Pods_QueritelPractical_QueritelPracticalUITests {
+  umbrella header "Pods-QueritelPractical-QueritelPracticalUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

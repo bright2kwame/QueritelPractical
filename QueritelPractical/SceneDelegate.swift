@@ -46,7 +46,34 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
     }
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        let userInfo = response.notification.request.content.userInfo
+        if let customData = userInfo["userPayload"] as? String {
+            print("Custom data received: \(customData)")
+            switch response.actionIdentifier {
+            case UNNotificationDefaultActionIdentifier:
+                print("Default identifier")
+                self.presentController()
+            case "recording":
+                print("Identifier Recording)")
+                break
+            default:
+                break
+            }
+        }
 
+        // you must call the completion handler when you're done
+        completionHandler()
+    }
+    
+    private func presentController(){
+        let storyboard = UIStoryboard(name: AppConstants.mainStoryBoardId, bundle: nil)
+        let destination = storyboard.instantiateViewController(withIdentifier: AppConstants.mainViewControllerStoryBoardId)
+        
+        self.window?.makeKeyAndVisible()
+        self.window?.rootViewController = destination
+    }
 
 }
 

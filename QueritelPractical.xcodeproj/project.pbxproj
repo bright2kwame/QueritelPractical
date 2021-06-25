@@ -3,18 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31ED2E922C51D53B7EC005B5 /* Pods_QueritelPractical_QueritelPracticalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280BAD7A0B83539021287D85 /* Pods_QueritelPractical_QueritelPracticalUITests.framework */; };
+		3A2A17318FC8159695170438 /* Pods_QueritelPractical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6290B79FA15B2E4319F839 /* Pods_QueritelPractical.framework */; };
 		56125F562684E83B00F7199E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56125F552684E83B00F7199E /* AppDelegate.swift */; };
 		56125F582684E83B00F7199E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56125F572684E83B00F7199E /* SceneDelegate.swift */; };
-		56125F5A2684E83B00F7199E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56125F592684E83B00F7199E /* ViewController.swift */; };
+		56125F5A2684E83B00F7199E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56125F592684E83B00F7199E /* MainViewController.swift */; };
 		56125F5D2684E83B00F7199E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56125F5B2684E83B00F7199E /* Main.storyboard */; };
 		56125F5F2684E83D00F7199E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56125F5E2684E83D00F7199E /* Assets.xcassets */; };
 		56125F622684E83D00F7199E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56125F602684E83D00F7199E /* LaunchScreen.storyboard */; };
 		56125F6D2684E83D00F7199E /* QueritelPracticalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56125F6C2684E83D00F7199E /* QueritelPracticalTests.swift */; };
 		56125F782684E83D00F7199E /* QueritelPracticalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56125F772684E83D00F7199E /* QueritelPracticalUITests.swift */; };
+		56125F8A2684FE1A00F7199E /* SettingsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56125F892684FE1A00F7199E /* SettingsItem.swift */; };
+		56125F992684FF3D00F7199E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56125F982684FF3D00F7199E /* SettingsViewController.swift */; };
+		56125FD526850D3B00F7199E /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56125FD326850D3B00F7199E /* SettingsTableViewCell.swift */; };
+		56125FD626850D3B00F7199E /* SettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56125FD426850D3B00F7199E /* SettingsTableViewCell.xib */; };
+		56125FE1268510EC00F7199E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56125FE0268510EC00F7199E /* ProfileViewController.swift */; };
+		56125FE62685146100F7199E /* ApiPayLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56125FE52685146100F7199E /* ApiPayLoad.swift */; };
+		56125FEB26851DEB00F7199E /* AudioRecorderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56125FEA26851DEB00F7199E /* AudioRecorderController.swift */; };
+		56125FF126852CA700F7199E /* NotificationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56125FF026852CA700F7199E /* NotificationUtil.swift */; };
+		56125FFD268545A200F7199E /* AudioFileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56125FFB268545A200F7199E /* AudioFileTableViewCell.swift */; };
+		56125FFE268545A200F7199E /* AudioFileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56125FFC268545A200F7199E /* AudioFileTableViewCell.xib */; };
+		561260182685C36D00F7199E /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561260172685C36D00F7199E /* AppConstants.swift */; };
+		F448483971EE3EDEDE44A714 /* Pods_QueritelPracticalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D461D2EC2CD4E9EFC4EC9AB /* Pods_QueritelPracticalTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		197205A015F85F7B694E91A0 /* Pods-QueritelPractical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueritelPractical.debug.xcconfig"; path = "Target Support Files/Pods-QueritelPractical/Pods-QueritelPractical.debug.xcconfig"; sourceTree = "<group>"; };
+		280BAD7A0B83539021287D85 /* Pods_QueritelPractical_QueritelPracticalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QueritelPractical_QueritelPracticalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C885FE91DA24DE031C648A /* Pods-QueritelPractical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueritelPractical.release.xcconfig"; path = "Target Support Files/Pods-QueritelPractical/Pods-QueritelPractical.release.xcconfig"; sourceTree = "<group>"; };
 		56125F522684E83B00F7199E /* QueritelPractical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QueritelPractical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56125F552684E83B00F7199E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56125F572684E83B00F7199E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		56125F592684E83B00F7199E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56125F592684E83B00F7199E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		56125F5C2684E83B00F7199E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56125F5E2684E83D00F7199E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56125F612684E83D00F7199E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +66,23 @@
 		56125F732684E83D00F7199E /* QueritelPracticalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueritelPracticalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56125F772684E83D00F7199E /* QueritelPracticalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueritelPracticalUITests.swift; sourceTree = "<group>"; };
 		56125F792684E83D00F7199E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56125F892684FE1A00F7199E /* SettingsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItem.swift; sourceTree = "<group>"; };
+		56125F982684FF3D00F7199E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		56125FD326850D3B00F7199E /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		56125FD426850D3B00F7199E /* SettingsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsTableViewCell.xib; sourceTree = "<group>"; };
+		56125FE0268510EC00F7199E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		56125FE52685146100F7199E /* ApiPayLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPayLoad.swift; sourceTree = "<group>"; };
+		56125FEA26851DEB00F7199E /* AudioRecorderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorderController.swift; sourceTree = "<group>"; };
+		56125FF026852CA700F7199E /* NotificationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationUtil.swift; sourceTree = "<group>"; };
+		56125FFB268545A200F7199E /* AudioFileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioFileTableViewCell.swift; sourceTree = "<group>"; };
+		56125FFC268545A200F7199E /* AudioFileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioFileTableViewCell.xib; sourceTree = "<group>"; };
+		561260172685C36D00F7199E /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		63C72A98356632BDB956B0FD /* Pods-QueritelPracticalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueritelPracticalTests.release.xcconfig"; path = "Target Support Files/Pods-QueritelPracticalTests/Pods-QueritelPracticalTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D461D2EC2CD4E9EFC4EC9AB /* Pods_QueritelPracticalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QueritelPracticalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB3FEA4D3F19098C595205E /* Pods-QueritelPractical-QueritelPracticalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueritelPractical-QueritelPracticalUITests.debug.xcconfig"; path = "Target Support Files/Pods-QueritelPractical-QueritelPracticalUITests/Pods-QueritelPractical-QueritelPracticalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB6290B79FA15B2E4319F839 /* Pods_QueritelPractical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QueritelPractical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6365B516054482239CF230F /* Pods-QueritelPractical-QueritelPracticalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueritelPractical-QueritelPracticalUITests.release.xcconfig"; path = "Target Support Files/Pods-QueritelPractical-QueritelPracticalUITests/Pods-QueritelPractical-QueritelPracticalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E79DA6CE78026261F8C37B3C /* Pods-QueritelPracticalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueritelPracticalTests.debug.xcconfig"; path = "Target Support Files/Pods-QueritelPracticalTests/Pods-QueritelPracticalTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A2A17318FC8159695170438 /* Pods_QueritelPractical.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F448483971EE3EDEDE44A714 /* Pods_QueritelPracticalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31ED2E922C51D53B7EC005B5 /* Pods_QueritelPractical_QueritelPracticalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +120,8 @@
 				56125F6B2684E83D00F7199E /* QueritelPracticalTests */,
 				56125F762684E83D00F7199E /* QueritelPracticalUITests */,
 				56125F532684E83B00F7199E /* Products */,
+				5C140DB8193186248B2CFEA3 /* Pods */,
+				8DA185E266929E8BF95879BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +138,12 @@
 		56125F542684E83B00F7199E /* QueritelPractical */ = {
 			isa = PBXGroup;
 			children = (
+				56125FEF26852C8E00F7199E /* Util */,
+				56125FBB2685038200F7199E /* TableCell */,
+				56125F942684FEB000F7199E /* Controller */,
+				56125F882684FE0600F7199E /* Model */,
 				56125F552684E83B00F7199E /* AppDelegate.swift */,
 				56125F572684E83B00F7199E /* SceneDelegate.swift */,
-				56125F592684E83B00F7199E /* ViewController.swift */,
 				56125F5B2684E83B00F7199E /* Main.storyboard */,
 				56125F5E2684E83D00F7199E /* Assets.xcassets */,
 				56125F602684E83D00F7199E /* LaunchScreen.storyboard */,
@@ -128,6 +170,69 @@
 			path = QueritelPracticalUITests;
 			sourceTree = "<group>";
 		};
+		56125F882684FE0600F7199E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56125F892684FE1A00F7199E /* SettingsItem.swift */,
+				56125FE52685146100F7199E /* ApiPayLoad.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		56125F942684FEB000F7199E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				56125F592684E83B00F7199E /* MainViewController.swift */,
+				56125F982684FF3D00F7199E /* SettingsViewController.swift */,
+				56125FE0268510EC00F7199E /* ProfileViewController.swift */,
+				56125FEA26851DEB00F7199E /* AudioRecorderController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		56125FBB2685038200F7199E /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				56125FD326850D3B00F7199E /* SettingsTableViewCell.swift */,
+				56125FD426850D3B00F7199E /* SettingsTableViewCell.xib */,
+				56125FFB268545A200F7199E /* AudioFileTableViewCell.swift */,
+				56125FFC268545A200F7199E /* AudioFileTableViewCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		56125FEF26852C8E00F7199E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				56125FF026852CA700F7199E /* NotificationUtil.swift */,
+				561260172685C36D00F7199E /* AppConstants.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		5C140DB8193186248B2CFEA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				197205A015F85F7B694E91A0 /* Pods-QueritelPractical.debug.xcconfig */,
+				42C885FE91DA24DE031C648A /* Pods-QueritelPractical.release.xcconfig */,
+				9CB3FEA4D3F19098C595205E /* Pods-QueritelPractical-QueritelPracticalUITests.debug.xcconfig */,
+				E6365B516054482239CF230F /* Pods-QueritelPractical-QueritelPracticalUITests.release.xcconfig */,
+				E79DA6CE78026261F8C37B3C /* Pods-QueritelPracticalTests.debug.xcconfig */,
+				63C72A98356632BDB956B0FD /* Pods-QueritelPracticalTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8DA185E266929E8BF95879BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB6290B79FA15B2E4319F839 /* Pods_QueritelPractical.framework */,
+				280BAD7A0B83539021287D85 /* Pods_QueritelPractical_QueritelPracticalUITests.framework */,
+				8D461D2EC2CD4E9EFC4EC9AB /* Pods_QueritelPracticalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56125F7C2684E83D00F7199E /* Build configuration list for PBXNativeTarget "QueritelPractical" */;
 			buildPhases = (
+				1D5CAB9BB2D3E0E62AAE6F8B /* [CP] Check Pods Manifest.lock */,
 				56125F4E2684E83B00F7199E /* Sources */,
 				56125F4F2684E83B00F7199E /* Frameworks */,
 				56125F502684E83B00F7199E /* Resources */,
+				0511B62962804BCA8121696B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56125F7F2684E83D00F7199E /* Build configuration list for PBXNativeTarget "QueritelPracticalTests" */;
 			buildPhases = (
+				6A506F6AF4A9BD84ED32532F /* [CP] Check Pods Manifest.lock */,
 				56125F642684E83D00F7199E /* Sources */,
 				56125F652684E83D00F7199E /* Frameworks */,
 				56125F662684E83D00F7199E /* Resources */,
@@ -170,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56125F822684E83D00F7199E /* Build configuration list for PBXNativeTarget "QueritelPracticalUITests" */;
 			buildPhases = (
+				2D8A74F83BA9C7D8DD0976C5 /* [CP] Check Pods Manifest.lock */,
 				56125F6F2684E83D00F7199E /* Sources */,
 				56125F702684E83D00F7199E /* Frameworks */,
 				56125F712684E83D00F7199E /* Resources */,
+				3B533BC3F94F7033B6E02FD4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +343,9 @@
 			files = (
 				56125F622684E83D00F7199E /* LaunchScreen.storyboard in Resources */,
 				56125F5F2684E83D00F7199E /* Assets.xcassets in Resources */,
+				56125FD626850D3B00F7199E /* SettingsTableViewCell.xib in Resources */,
 				56125F5D2684E83B00F7199E /* Main.storyboard in Resources */,
+				56125FFE268545A200F7199E /* AudioFileTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +365,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0511B62962804BCA8121696B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QueritelPractical/Pods-QueritelPractical-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QueritelPractical/Pods-QueritelPractical-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QueritelPractical/Pods-QueritelPractical-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D5CAB9BB2D3E0E62AAE6F8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QueritelPractical-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D8A74F83BA9C7D8DD0976C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QueritelPractical-QueritelPracticalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B533BC3F94F7033B6E02FD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QueritelPractical-QueritelPracticalUITests/Pods-QueritelPractical-QueritelPracticalUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QueritelPractical-QueritelPracticalUITests/Pods-QueritelPractical-QueritelPracticalUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QueritelPractical-QueritelPracticalUITests/Pods-QueritelPractical-QueritelPracticalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A506F6AF4A9BD84ED32532F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QueritelPracticalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56125F4E2684E83B00F7199E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56125F5A2684E83B00F7199E /* ViewController.swift in Sources */,
+				56125FF126852CA700F7199E /* NotificationUtil.swift in Sources */,
+				56125F5A2684E83B00F7199E /* MainViewController.swift in Sources */,
+				56125FD526850D3B00F7199E /* SettingsTableViewCell.swift in Sources */,
+				56125F8A2684FE1A00F7199E /* SettingsItem.swift in Sources */,
 				56125F562684E83B00F7199E /* AppDelegate.swift in Sources */,
+				56125FE1268510EC00F7199E /* ProfileViewController.swift in Sources */,
+				56125F992684FF3D00F7199E /* SettingsViewController.swift in Sources */,
 				56125F582684E83B00F7199E /* SceneDelegate.swift in Sources */,
+				561260182685C36D00F7199E /* AppConstants.swift in Sources */,
+				56125FEB26851DEB00F7199E /* AudioRecorderController.swift in Sources */,
+				56125FE62685146100F7199E /* ApiPayLoad.swift in Sources */,
+				56125FFD268545A200F7199E /* AudioFileTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +657,7 @@
 		};
 		56125F7D2684E83D00F7199E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 197205A015F85F7B694E91A0 /* Pods-QueritelPractical.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +676,7 @@
 		};
 		56125F7E2684E83D00F7199E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C885FE91DA24DE031C648A /* Pods-QueritelPractical.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +695,7 @@
 		};
 		56125F802684E83D00F7199E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E79DA6CE78026261F8C37B3C /* Pods-QueritelPracticalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +717,7 @@
 		};
 		56125F812684E83D00F7199E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C72A98356632BDB956B0FD /* Pods-QueritelPracticalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +739,7 @@
 		};
 		56125F832684E83D00F7199E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB3FEA4D3F19098C595205E /* Pods-QueritelPractical-QueritelPracticalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +759,7 @@
 		};
 		56125F842684E83D00F7199E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6365B516054482239CF230F /* Pods-QueritelPractical-QueritelPracticalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
